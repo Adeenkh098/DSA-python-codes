@@ -1,39 +1,57 @@
-# Data Structures & Algorithms - Python Assignments
+# ⚡ Data Structures & Algorithms (DSA) Mastery 🐍
 
-This repository contains a series of Python implementations covering fundamental Data Structures and Algorithms (DSA). Each assignment focuses on a specific concept, ranging from basic searching to complex graph traversals.
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Adeenkh098)
 
-## 📂 Repository Contents
-
-| Assignment | File Name | Key Features |
-| :--- | :--- | :--- |
-| **01** | `Assignment1_Library.py` | Statistical analysis for library borrowing data. |
-| **02** | `Assignment2_Search.py` | Linear Search and Binary Search implementations. |
-| **03** | `Assignment3_undo_redo.py` | State management using Stack (LIFO) logic. |
-| **04** | **`Assignment4_Queue.py`** | Event processing and task scheduling using Queues. |
-| **05 & 06** | `Assignment5_hashtable.py` | Hash map implementation with CRUD & collision handling. |
-| **07** | `Assignment7_Bfs_Dfs.py` | Graph exploration using Breadth-First and Depth-First Search. |
-| **08** | `Assignment8_Bst.py` | Binary Search Tree (BST) insertion, deletion, and traversal. |
+A comprehensive collection of fundamental algorithms and data structures implemented in Python. This repository serves as a technical log of my journey through **algorithmic efficiency** and **data management**.
 
 ---
 
-## 🛠️ Logic Overview
+## 🛠️ Tech Stack & Concepts
+* **Language:** Python 3.x 🐍
+* **Paradigm:** Procedural & Object-Oriented Programming (OOP)
+* **Concepts:** Big O Notation, Recursion, Memory Management, Linear & Non-Linear Structures.
 
-### Searching & Sorting
-We implement **Binary Search**, which operates on a "Divide and Conquer" principle.
+---
 
+## 📂 Project Roadmap
+
+### 🔍 Search & Optimization
+* **`Assignment2_Search.py`** 🎯
+    * Implements **Linear Search** $O(n)$ and **Binary Search** $O(\log n)$.
+    * *Focus:* Reducing time complexity through sorted data access.
+    
 
 [Image of binary search algorithm flowchart]
 
-* **Time Complexity:** $O(\log n)$
-* **Requirement:** Data must be sorted before searching.
 
-### Graph Traversals
-Includes both BFS and DFS to explore nodes and edges.
+### 🏗️ Linear Data Structures
+* **`Assignment3_undo_redo.py`** 🔄
+    * Uses **Stacks** (LIFO) to manage state transitions.
+* **`Assignment4_Queue.py`** 📥
+    * Implements a **Queue** (FIFO) for event processing systems.
 
-* **BFS:** Uses a Queue for level-order traversal.
-* **DFS:** Uses a Stack (or recursion) for path-based traversal.
+### 🔑 Hashing & Mapping
+* **`Assignment5_hashtable.py`** & **`Assignment6`** 🗝️
+    * Custom **Hash Table** implementation with full **CRUD** (Create, Read, Update, Delete) support.
+    * *Logic:* Using hash functions to achieve near $O(1)$ lookup time.
 
-### Binary Search Trees (BST)
-A hierarchical structure where for every node:
-* `Left Child < Parent`
-* `Right Child > Parent`
+### 🌳 Hierarchical & Graph Structures
+* **`Assignment8_Bst.py`** 🌲
+    * **Binary Search Tree** implementation including insertion, deletion, and depth-first traversals.
+* **`Assignment7_Bfs_Dfs.py`** 🕸️
+    * **BFS (Breadth-First Search):** Exploring level-by-level using a Queue.
+    * **DFS (Depth-First Search):** Exploring branch-by-branch using Recursion/Stacks.
+    
+
+---
+
+## 📊 Complexity Analysis Summary
+
+| Data Structure | Insertion | Deletion | Search |
+| :--- | :---: | :---: | :---: |
+| **Stack / Queue** | $O(1)$ | $O(1)$ | $O(n)$ |
+| **Hash Table** | $O(1)$ | $O(1)$ | $O(1)$ |
+| **BST (Balanced)** | $O(\log n)$ | $O(\log n)$ | $O(\log n)$ |
+
+---
